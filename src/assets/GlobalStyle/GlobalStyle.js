@@ -5,6 +5,8 @@ export const GlobalStyle = createGlobalStyle`
 
   html {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
   }
 
   *, *::after, *::before {
@@ -12,7 +14,9 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'Montserrat', ssdans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
   }
 
   a, button {
